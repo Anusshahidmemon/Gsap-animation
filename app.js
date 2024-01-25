@@ -1,0 +1,6 @@
+gsap.from('.header',{ duration:2, y:'1000%', ease:'bounce',})
+gsap.from('.links',{duration:2, opacity:0,})
+gsap.from('.right-slider',{ duration:2, y:'-100%',x:'100%', ease:'bounce',})
+gsap.from('.left-slider',{ duration:2, y:'-100%',x:'-100%', ease:'bounce',})
+gsap.from('.footer',{ duration:2, y:'-1000%', ease:'bounce',})
+gsap.from('button',{ duration:'2', rotate:360, })
